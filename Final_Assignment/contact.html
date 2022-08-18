@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="resume">
+
+
+<!-- Name: Harmandeep Kaur.
+Student Id: 149829210.
+Dated: 19 Aug, 2022. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=90%, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="section1">
+        <header class="r_header">
+            <h1 class="name">Harmandeep Kaur</h1>
+            <div class="links">
+                <a href="contact.html" target="_blank">CONTACT ME</a>
+                <a href="index.html" target="_blank">HOME</a>
+            </div>
+        </header>
+    </div>
+
+    <div class="_contact">
+        <h2 class="heading_cont">Contact Details</h2>
+
+        <p>
+            <span class="mandatory_field">*</span>
+            Required Field
+        </p>
+
+        <form action="https://formspree.io/f/mwkzkyvq" method="POST" onsubmit="return validate(event)">
+            <fieldset id="_DETAILS">
+                <label for="Name">
+                    Name<span class="mandatory_field">*</span>
+                    <input type="text" name="name" id="name" maxlength="256" autofocus required
+                        placeholder="Enter your name" />
+                </label>
+
+                <label for="email">
+                    Email:<span class="mandatory_field">*</span>
+                    <span id="email_error"></span>
+                    <input type="text" name="email" id="email" size="70" autofocus required
+                        placeholder="Enter your Email address" />
+                </label>
+
+                <label for="address">
+                    Address:<span class="mandatory_field">*</span>
+                    <input type="text" name="address" id="address" size="70" autofocus required
+                        placeholder="Please Enter your address" />
+                </label>
+
+                <label for="city">
+                    City:<span class="mandatory_field">*</span>
+                    <input type="text" name="city" id="city" size="70" autofocus required
+                        placeholder="Your City here" />
+                </label>
+
+                <label for="postal">
+                    Postal Code:<span class="mandatory_field">*</span>
+                    <input type="text" name="postal" id="postal" size="70" autofocus
+                        pattern="^(?!.*[DFIOQU])[A-VXY][0-9][A-Z] ?[0-9][A-Z][0-9]$" required placeholder="A1A 1A1" />
+                </label>
+
+                <div>
+                    <label for="Type">What is your Query?</label>
+                    <div>
+                        <input type="radio" name="option" id="option_1" required>
+                        <label for="Question" class="radiobuttons">
+                            Question:
+                        </label>
+                        <div class="reveal">
+                            <label for="question"></label>
+                            <textarea name="Question" id="question" cols="60" rows="5" maxlength="500"
+                                placeholder="Please write your question here" class="require"
+                                data-require-pair="#options"></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="option" id="option_2" required>
+                        <label for="Comment" class="radiobuttons">
+                            Comment:
+                        </label>
+                        <div class="reveal">
+                            <label for="comment"></label>
+                            <textarea name="Comment" id="comment" cols="60" rows="5" maxlength="500"
+                                placeholder="Please write your comment here" class="require"
+                                data-require-pair="#options"></textarea>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="option" id="option_3" required>
+                        <label for="Hiring" class="radiobuttons">
+                            Hiring:
+                        </label>
+                        <div class="reveal">
+                            <label for="hiring">Hourely Rate: $</label>
+                            <input type="number" name="Hourly rate" id="rate" autofocus placeholder="Hourly Rate"
+                                class="require" data-require-pair="#options" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <input type="submit" class="Sub_button_cont" value="Submit" />
+        </form>
+    </div>
+    <script src="final_Assignment.js"></script>
+</body>
+
+</html>
