@@ -77,13 +77,13 @@ section#1{
     display: flex;
     padding-bottom: 50px;
 }
-section#2{
+#s2{
     flex:1;
     margin-right: 250px;
-    margin-left: 100px;
+ 
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 400;
-    color: #3f4e5f;
+    color: #080e14;
 }
 .about{
     margin-bottom: 20px;
@@ -95,11 +95,11 @@ section#2{
     padding: 10px;
     color: #f7a2a4;
 }
-section#3{
-    margin-right: 200px;
+#s3{
+   
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 400;
-    color: #3f4e5f;
+    color: #090a0a;
 }
 .basic{
 margin-bottom: 20px;
@@ -109,7 +109,7 @@ margin-bottom: 20px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif; 
     font-weight: 500;
-    color:#f2f4f7;
+    color:rgb(90, 0, 0);
 }
 .section3{
     display:flex;
@@ -166,23 +166,21 @@ p#prof_info{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-section#7{
+#s7{
     text-align: center;
     margin-left: 550px;
     margin-right: 550px;
-    border: 2px solid black;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 30px;
-    background-color: black;
     opacity: 0.7;
-    color: rgb(228, 152, 152);
+    color: rgb(90, 0, 0);
 }
 .reflect{
     margin-right: 50px;
     margin-left: 50px;
     font-family:'Times New Roman', Times, serif;
-    font-weight: 400;
+    font-size: larger;
     font-style: bold;
     color:rgb(228, 152, 152);
 }

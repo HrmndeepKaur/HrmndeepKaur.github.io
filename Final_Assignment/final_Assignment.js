@@ -1,7 +1,9 @@
 
 /* Name: Harmandeep Kaur.
 Student Id: 149829210.
-Dated: 19 Aug, 2022. */
+Dated: 19 Aug, 2022. 
+//link to static website
+https://hrmndeepkaur.github.io/Final_Assignment/   */
 
 function validate(event) {
     var _email = document.getElementById("email").value;
